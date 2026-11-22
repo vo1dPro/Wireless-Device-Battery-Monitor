@@ -89,6 +89,7 @@ void PollNuphy(PollContext& ctx);     // NuPhy WH80 over USB cable (19F5:A011)
 void PollWobkey(PollContext& ctx);    // Wobkey Rainy75 V2 keyboard (36B0:3071 receiver / 36B0:3075 cable)
 void PollNuphyHalo96(PollContext& ctx); // Halo96 V2 with custom telemetry over the stock 2.4 GHz receiver
 void PollCrociris(PollContext& ctx);  // CROCIRIS X7 series mice on the 36F9:AA20 "X7 Receiver 8K"
+void PollXiberia(PollContext& ctx);  // K03S Wireless 7.1 on its exact 36F9:C001 receiver
 void PollArbiter(PollContext& ctx);   // Arbiter Studio Akitsu mice on 373E (before Lamzu, same vendor id)
 void PollLamzu(PollContext& ctx);     // LAMZU mice on vendor ids 373E / 37B0
 void PollEndgame(PollContext& ctx);   // Endgame Gear 4K mice (OP1w 4k, XM2w 4k) on the 4K dongle

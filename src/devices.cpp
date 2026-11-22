@@ -73,6 +73,7 @@ std::vector<DeviceStatus> PollAllDevices() {
     PollWobkey(ctx);
     PollNuphyHalo96(ctx);
     PollCrociris(ctx);
+    PollXiberia(ctx);
     PollArbiter(ctx);    // before Lamzu, which shares the 373E vendor id
     PollLamzu(ctx);
     PollEndgame(ctx);
